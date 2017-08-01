@@ -1,4 +1,3 @@
-
 function RealisticDesign_D2D(arModel,ar)
 
 % Create a realistic design with Observables, Time Points, Simulated Data and 10% Errors
@@ -144,4 +143,3 @@ save RealisticDesign/workspace.mat ar
 
 % write nice data table  
 WriteDataTable(tT, yNames, yExp);
-
