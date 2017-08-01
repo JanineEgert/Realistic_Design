@@ -31,4 +31,3 @@ xlswrite(['RealisticDesign' folder_name '/TimePoints.xls'],tT);
     
     
 end
-
