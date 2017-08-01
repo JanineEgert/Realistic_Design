@@ -1,11 +1,8 @@
 function arFitTransient(n)
 
 global ar
-% 
-[bounds,boundsNeg] = DefaultLbUbTransient;
 
-% in.lb = ar.lb;
-% in.ub = ar.ub;
+[bounds,boundsNeg] = DefaultLbUbTransient;
 
 ar.model.data.logfitting = 0;
 ar.model.data.logplotting = 0;
@@ -37,6 +34,3 @@ for i=1:length(update_fields)
 end
 arSimu(false, true);
 
-% ar.lb = in.lb;
-% ar.ub = in.ub;
- 
