@@ -82,5 +82,3 @@ if(~isempty(indOffset))
     boundsNegative.lb(indOffset) = nanmin(y);
     boundsNegative.ub(indOffset) = nanmax(y)+0.5*D;
 end
-
-    
